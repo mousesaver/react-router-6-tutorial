@@ -1,10 +1,10 @@
 import { Link, Outlet } from 'react-router-dom'
+import Navbar from '../Components/Navbar'
 const Home = () => {
   return (
     <>
-      <section className='section'>
-        <h2>Home Page</h2>
-      </section>
+      <Navbar />
+      <Outlet />
     </>
   );
 };
